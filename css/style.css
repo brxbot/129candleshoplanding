@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:ital@1&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.intro-image{
+    background-attachment: fixed;
+     background-image: url(../img/1.webp);
+    background-size: cover;
+    background-position: bottom;
+     height: 500px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+ }
+
+ .intro-image__text a {
+
+    background-color: #39382ddc;
+    border: 2px solid #a9adabdc ;
+    color: rgba(197, 163, 119, 0.664);
+     display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+     text-decoration: none;
+     transition: all 1s ease-in-out;
+ 
+ 
+ }
+ .intro-text__textbox p{
+    text-transform: uppercase;
+ }
+ 
+
+ .intro-image__text:hover{
+
+    transform: scale(1.1);
+ 
+ 
+ }
+
+ .intro-image__text {
+    background-color: none#73352a78;
+   color: #8f8e79;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 150px;
+    padding: 0 15rem;
+ }
+
+ .intro-text{
+    background-color: #4e2a24;
+   color: #8f8e79;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+
+
+}
+
+.intro-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    
+    }
+
+    .intro-text__textbox h3 p{
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        
+        
+        }
+
+        .intro-text__textbox:hover{
+            transform: scale(1.1);
+
+        }
+        .packaging-image{
+            background-attachment: fixed;
+            background-image: url(../img/2.webp);
+            background-size: cover;
+            background-position: bottom;
+            height: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .packaging-image__text{
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+
+        }
+    .packaging-text h3{
+       color: rgb(73, 6, 53);
+        font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    }
+    .packaging_text__textbox p{
+        background-color: #9336148a;
+        color: rgba(146, 106, 58, 0.664);
+         display: inline-block;
+        font-size: 2rem;
+        padding: 2rem;
+        text-transform: uppercase;
+         text-decoration: none;
+         
+     }
+     
+     
+     .packaging-image:hover{
+         transform: scale(1.5);
+     }
+    
+
+    .tutorials-image{
+            background-attachment: fixed;
+            background-image: url('../img/3.webp');
+           background-size: cover;
+           background-position: bottom;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            clip-path: polygon(50% 13%, 100% 0, 100% 43%, 100% 61%, 65% 73%, 31% 84%, 0 87%, 0% 43%, 0 0);
+        }
+
+
+
+
+        
+        .tutorials-image__text a{
+            background-color: #9349408f;
+            text-transform: uppercase;
+            text-decoration-color: rgb(154, 211, 211);
+       color: #8f8e79;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        height: 100px;
+        padding: 0 5rem;
+        }
+            
